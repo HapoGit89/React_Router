@@ -1,0 +1,11 @@
+.DetailImg {
+   height: 30vh;
+   width: auto;
+    margin: 2vh;;
+}
+
+.SnackDetail {
+    display: flex;
+    flex-direction: column;
+    margin:2vh;
+}

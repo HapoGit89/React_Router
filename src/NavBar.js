@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./NavBar.css"
 
 
 function NavBar({data}) {
@@ -8,7 +9,7 @@ function NavBar({data}) {
     <nav className="NavBar">
         {console.log(snacks)}
          {snacks.map(el=>(
-            <NavLink exact to={`${el.name}`}>
+            <NavLink exact to={`${el.name}`} key={`N${el.id}`}>
                 {el.name}
             </NavLink>
          ))}

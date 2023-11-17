@@ -1,0 +1,12 @@
+.NavBar a {
+    color: white;
+  }
+  
+  .NavBar a.active {
+    color:brown;
+  }
+
+  .NavBar {
+    background-color: grey;
+    border-radius: 1vh;
+  }
